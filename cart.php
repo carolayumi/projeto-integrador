@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
 <title>Cart</title>
 <meta charset="utf-8">
@@ -27,18 +27,18 @@
 	<!-- Navigation -->
 	<div class="menu_nav">
 		<ul>
-			<li><a href="#">Women</a></li>
-			<li><a href="#">Men</a></li>
+			<li><a href="#">Mulher</a></li>
+			<li><a href="#">Homem</a></li>
 			<li><a href="#">Kids</a></li>
-			<li><a href="#">Home Deco</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="#">Home </a></li>
+			<li><a href="#">Contato</a></li>
 		</ul>
 	</div>
 	<!-- Contact Info -->
 	<div class="menu_contact">
 		<div class="menu_phone d-flex flex-row align-items-center justify-content-start">
 			<div><div><img src="images/phone.svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
-			<div>+1 912-252-7350</div>
+			<div>11 5555-5555</div>
 		</div>
 		<div class="menu_social">
 			<ul class="menu_social_list d-flex flex-row align-items-start justify-content-start">
@@ -62,25 +62,25 @@
 				<a href="#">
 					<div class="d-flex flex-row align-items-center justify-content-start">
 						<div><img src="images/logo_1.png" alt=""></div>
-						<div>Little Closet</div>
+						<div>Produtos Sustentáveis</div>
 					</div>
 				</a>	
 			</div>
 			<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
 			<nav class="main_nav">
 				<ul class="d-flex flex-row align-items-start justify-content-start">
-					<li><a href="#">Women</a></li>
-					<li><a href="#">Men</a></li>
+					<li><a href="#">Mulher</a></li>
+					<li><a href="#">Homem</a></li>
 					<li><a href="#">Kids</a></li>
-					<li><a href="#">Home Deco</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Contato</a></li>
 				</ul>
 			</nav>
 			<div class="header_right d-flex flex-row align-items-center justify-content-start ml-auto">
 				<!-- Search -->
 				<div class="header_search">
 					<form action="#" id="header_search_form">
-						<input type="text" class="search_input" placeholder="Search Item" required="required">
+						<input type="text" class="search_input" placeholder="Procurar Item" required="required">
 						<button class="header_search_button"><img src="images/search.png" alt=""></button>
 					</form>
 				</div>
@@ -91,7 +91,7 @@
 				<!-- Phone -->
 				<div class="header_phone d-flex flex-row align-items-center justify-content-start">
 					<div><div><img src="images/phone.svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
-					<div>+1 912-252-7350</div>
+					<div>11 5555-5555</div>
 				</div>
 			</div>
 		</div>
@@ -105,11 +105,11 @@
 		<div class="home">
 			<div class="home_container d-flex flex-column align-items-center justify-content-end">
 				<div class="home_content text-center">
-					<div class="home_title">Shopping Cart</div>
+					<div class="home_title">Carrinho de Compras</div>
 					<div class="breadcrumbs d-flex flex-column align-items-center justify-content-center">
 						<ul class="d-flex flex-row align-items-start justify-content-start text-center">
-							<li><a href="#">Home</a></li>
-							<li>Your Cart</li>
+							<li><a href="#">Página Inicial</a></li>
+							<li>Carrinho</li>
 						</ul>
 					</div>
 				</div>
@@ -127,11 +127,11 @@
 							<!-- Cart Bar -->
 							<div class="cart_bar">
 								<ul class="cart_bar_list item_list d-flex flex-row align-items-center justify-content-end">
-									<li class="mr-auto">Product</li>
-									<li>Color</li>
-									<li>Size</li>
-									<li>Price</li>
-									<li>Quantity</li>
+									<li class="mr-auto">Produtos</li>
+									<li>Cor</li>
+									<li>Tamanho</li>
+									<li>Preço</li>
+									<li>Quantidade</li>
 									<li>Total</li>
 								</ul>
 							</div>
@@ -168,8 +168,8 @@
 							<!-- Cart Buttons -->
 							<div class="cart_buttons d-flex flex-row align-items-start justify-content-start">
 								<div class="cart_buttons_inner ml-sm-auto d-flex flex-row align-items-start justify-content-start flex-wrap">
-									<div class="button button_clear trans_200"><a href="categories.html">clear cart</a></div>
-									<div class="button button_continue trans_200"><a href="categories.html">continue shopping</a></div>
+									<div class="button button_clear trans_200"><a href="categories.html">Categorias </a></div>
+									<div class="button button_continue trans_200"><a href="categories.html">Continuar Comprando</a></div>
 								</div>
 							</div>
 						</div>
@@ -179,22 +179,22 @@
 					<div class="col-lg-6">
 						<div class="cart_extra cart_extra_1">
 							<div class="cart_extra_content cart_extra_coupon">
-								<div class="cart_extra_title">Coupon code</div>
+								<div class="cart_extra_title">Código do Cupom</div>
 								<div class="coupon_form_container">
 									<form action="#" id="coupon_form" class="coupon_form">
 										<input type="text" class="coupon_input" required="required">
-										<button class="coupon_button">apply</button>
+										<button class="coupon_button">Aplicar</button>
 									</form>
 								</div>
-								<div class="coupon_text">Phasellus sit amet nunc eros. Sed nec congue tellus. Aenean nulla nisl, volutpat blandit lorem ut.</div>
+								<div class="coupon_text">Incluir vale presente ou cupom de desconto!</div>
 								<div class="shipping">
-									<div class="cart_extra_title">Shipping Method</div>
+									<div class="cart_extra_title">Método de Envio</div>
 									<ul>
 										<li class="shipping_option d-flex flex-row align-items-center justify-content-start">
 											<label class="radio_container">
 												<input type="radio" id="radio_1" name="shipping_radio" class="shipping_radio">
 												<span class="radio_mark"></span>
-												<span class="radio_text">Next day delivery</span>
+												<span class="radio_text">Entrega no dia seguinte</span>
 											</label>
 											<div class="shipping_price ml-auto">$4.99</div>
 										</li>
@@ -202,7 +202,7 @@
 											<label class="radio_container">
 												<input type="radio" id="radio_2" name="shipping_radio" class="shipping_radio">
 												<span class="radio_mark"></span>
-												<span class="radio_text">Standard delivery</span>
+												<span class="radio_text">Entrega Padrão</span>
 											</label>
 											<div class="shipping_price ml-auto">$1.99</div>
 										</li>
@@ -210,9 +210,9 @@
 											<label class="radio_container">
 												<input type="radio" id="radio_3" name="shipping_radio" class="shipping_radio" checked>
 												<span class="radio_mark"></span>
-												<span class="radio_text">Personal Pickup</span>
+												<span class="radio_text">Retirar na Loja</span>
 											</label>
-											<div class="shipping_price ml-auto">Free</div>
+											<div class="shipping_price ml-auto">Grátis</div>
 										</li>
 									</ul>
 								</div>
@@ -222,22 +222,22 @@
 					<div class="col-lg-6 cart_extra_col">
 						<div class="cart_extra cart_extra_2">
 							<div class="cart_extra_content cart_extra_total">
-								<div class="cart_extra_title">Cart Total</div>
+								<div class="cart_extra_title">Total da Compra</div>
 								<ul class="cart_extra_total_list">
 									<li class="d-flex flex-row align-items-center justify-content-start">
 										<div class="cart_extra_total_title">Subtotal</div>
 										<div class="cart_extra_total_value ml-auto">$29.90</div>
 									</li>
 									<li class="d-flex flex-row align-items-center justify-content-start">
-										<div class="cart_extra_total_title">Shipping</div>
-										<div class="cart_extra_total_value ml-auto">Free</div>
+										<div class="cart_extra_total_title">Remessa</div>
+										<div class="cart_extra_total_value ml-auto">Grátis</div>
 									</li>
 									<li class="d-flex flex-row align-items-center justify-content-start">
 										<div class="cart_extra_total_title">Total</div>
 										<div class="cart_extra_total_value ml-auto">$29.90</div>
 									</li>
 								</ul>
-								<div class="checkout_button trans_200"><a href="checkout.html">proceed to checkout</a></div>
+								<div class="checkout_button trans_200"><a href="checkout.html">Processando a Compra</a></div>
 							</div>
 						</div>
 					</div>
@@ -259,12 +259,12 @@
 									<a href="#">
 										<div class="d-flex flex-row align-items-center justify-content-start">
 											<div class="footer_logo_icon"><img src="images/logo_2.png" alt=""></div>
-											<div>Little Closet</div>
+											<div>Produtos Sustentáveis</div>
 										</div>
 									</a>		
 								</div>
 								<div class="footer_about_text">
-									<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Fusce venenatis vel velit vel euismod.</p>
+									<p>Semear ideias ecológicas e plantar sustentabilidade é ter a garantia de colhermos um futuro fértil e consciente</p>
 								</div>
 							</div>
 						</div>
@@ -272,22 +272,22 @@
 						<!-- Footer Links -->
 						<div class="col-lg-4 footer_col">
 							<div class="footer_menu">
-								<div class="footer_title">Support</div>
+								<div class="footer_title">Suporte</div>
 								<ul class="footer_list">
 									<li>
-										<a href="#"><div>Customer Service<div class="footer_tag_1">online now</div></div></a>
+										<a href="#"><div>Serviço ao Cliente<div class="footer_tag_1">online agora</div></div></a>
 									</li>
 									<li>
-										<a href="#"><div>Return Policy</div></a>
+										<a href="#"><div>Politica de Devolução</div></a>
 									</li>
 									<li>
-										<a href="#"><div>Size Guide<div class="footer_tag_2">recommended</div></div></a>
+										<a href="#"><div>Guia<div class="footer_tag_2">recomendado</div></div></a>
 									</li>
 									<li>
-										<a href="#"><div>Terms and Conditions</div></a>
+										<a href="#"><div>Termos e Condições</div></a>
 									</li>
 									<li>
-										<a href="#"><div>Contact</div></a>
+										<a href="#"><div>Contato</div></a>
 									</li>
 								</ul>
 							</div>
@@ -296,10 +296,10 @@
 						<!-- Footer Contact -->
 						<div class="col-lg-4 footer_col">
 							<div class="footer_contact">
-								<div class="footer_title">Stay in Touch</div>
+								<div class="footer_title">Entre em Contato</div>
 								<div class="newsletter">
 									<form action="#" id="newsletter_form" class="newsletter_form">
-										<input type="email" class="newsletter_input" placeholder="Subscribe to our Newsletter" required="required">
+										<input type="email" class="newsletter_input" placeholder="Digite seu E-mail" required="required">
 										<button class="newsletter_button">+</button>
 									</form>
 								</div>
@@ -323,15 +323,15 @@
 						<div class="col">
 							<div class="footer_bar_content d-flex flex-md-row flex-column align-items-center justify-content-start">
 								<div class="copyright order-md-1 order-2"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script>Todos os direitos reservados | Este modelo é feito com <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 								<nav class="footer_nav ml-md-auto order-md-2 order-1">
 									<ul class="d-flex flex-row align-items-center justify-content-start">
-										<li><a href="category.html">Women</a></li>
-										<li><a href="category.html">Men</a></li>
+										<li><a href="category.html">Mulher</a></li>
+										<li><a href="category.html">Homem</a></li>
 										<li><a href="category.html">Kids</a></li>
-										<li><a href="category.html">Home Deco</a></li>
-										<li><a href="#">Contact</a></li>
+										<li><a href="category.html">Home</a></li>
+										<li><a href="#">Contato</a></li>
 									</ul>
 								</nav>
 							</div>
