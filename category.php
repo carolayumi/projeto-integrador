@@ -16,7 +16,7 @@
 </head>
 <body>
 	 <!-- INCLUINDO HEADER -->
-		<? include "header.php"; ?>
+		<?php include "header.php"; ?>
 
 	<div class="super_container_inner">
 		<div class="super_overlay"></div>
@@ -378,7 +378,7 @@
 		</div>
 
 		<!-- Incluindo Footer -->
-		<? include "footer.php"; ?>
+		<?php include "footer.php"; ?>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap-4.1.2/popper.js"></script>
